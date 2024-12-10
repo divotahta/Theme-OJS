@@ -1,0 +1,192 @@
+:root {
+    --biru        : #273C75;
+    --hijau       : #006752;
+    --kuning      : #FDBA34;
+    --kuningcerah : #F7ED55;
+    --background  : #FAFAFA;
+}
+
+.current_issue h2 {
+    display: inline-block;
+    padding-bottom: 0.5em !important;
+    border-bottom: 3px solid var(--biru) !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+}
+.pkp_structure_head {
+    background-image: none!important;
+    background-color: transparent !important;
+    /* background-color: var(--biru) !important; */
+}
+.pkp_site_name .is_text{
+   color:#ffffff;
+}
+.obj_galley_link{
+   background-color: var(--biru) !important;
+}
+/* Custom Theme by Darkun7 */
+
+.pkp_navigation_primary_wrapper {
+    background-color: transparent;
+}
+.pkp_navigation_primary_row {
+    background: transparent;
+}
+#pkp_content_nav{
+    background: var(--biru);
+}
+.pkp_navigation_user > li > a,
+.pkp_navigation_user > li.in_focus > a,
+.pkp_navigation_user > li > a:hover,
+.pkp_navigation_user > li > a:focus {
+    color: #fff;
+}
+#navigationPrimary a:hover, #navigationPrimary a:focus {
+    color: #fff !important;
+}
+#navigationPrimary a
+{
+    color: #fff !important;
+}
+#navigationPrimary > li > a:hover, #navigationPrimary > li > a:focus {
+    border-color: var(--kuning) !important;
+}
+.pkp_nav_list ul a:hover, .pkp_nav_list ul a:focus{
+    background: var(--kuning) !important;
+}
+
+body{
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_backjaps-unej.png");
+  background:
+  linear-gradient( 180deg,
+    rgba(39,60,117,1) 130px,
+    rgba(39,60,117,1) 210px,
+    rgba(255, 255, 255, 0.4) 170px,
+    rgba(255, 255, 255, 1) 100%),
+    url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_backjaps-unej.png") !important;
+  /* background:rgb(221, 221, 221); */
+}
+.pkp_structure_page{
+	box-shadow: none !important;
+  margin-top: 0px !important;
+  border-radius: 0 0 20px 20px;
+}
+.pkp_brand_footer{
+  background: #fff !important;
+}
+
+/* SUBMISSION BUTTON */
+a.block_make_submission_link{
+	padding: 5px 46px !important;
+  background: var(--biru) !important;
+}
+a.block_make_submission_link:hover{
+	color: var(--kuningcerah) !important;
+}
+
+.headerSearchPrompt{
+  color: white !important;
+}
+
+/* BANNER */
+.pkp_head_wrapper{
+  background-color: var(--biru); /* main */
+  background-image: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/cover-wartapengabdian-g15.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 210px;
+  background-position: 2px -79px;
+}
+#navigationUserWrapper{
+  top: 0 !important;
+  width: 100% !important;
+  background: var(--biru); /* main */
+}
+.is_img{
+  margin-top: 20px;
+}
+.pkp_site_name .is_img img{
+  max-height: 100px !important;
+}
+
+/* FOOTER */
+#pkp_content_footer{
+  border-bottom: 20px solid var(--biru) !important;
+}
+/* Main Background */
+.pkp_structure_page,
+.pkp_structure_content,
+.pkp_block
+{
+	background-color: var(--background) !important;
+}
+
+/* MISC */
+
+.pkp_block .content p,
+.pkp_block .content li,
+.pkp_block .content a{
+  text-decoration: none !important;
+  text-align: center !important;
+  color: white !important;
+  display: block !important;
+  margin-bottom: 8px !important
+}
+
+.blockhead{
+  padding: 5px !important;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+.pkp_block .content li,
+.pkp_block .content p{
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  margin-top: 0px;
+  padding: 4px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  margin-bottom: 2px;
+  background: var(--biru); /* main */
+  color: white;
+  font-weight: bold;
+}
+
+.pkp_block .content li:hover,
+.pkp_block .content p:hover{
+  background: var(--biru); /* main */
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: var(--kuning);
+/* border-left: 2px solid var(--sekunder); */
+}
+
+span.title,
+.pkp_block .content p:first-child{
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  margin-bottom: 2px;
+  background: var(--biru); /* main */
+  color: white !important;
+  display: block !important;
+  font-size: 14px !important;
+  text-align: center !important;
+  margin-bottom: 0px !important;
+  border-radius: 3px;
+  box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1);
+}
+
+.image-index{
+  max-height: 45px;
+  width: auto;
+  padding: 3px;
+  border: 2px solid var(--biru); /* main */
+  margin: 3px 3px;
+  background-color: white;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+}

@@ -1,0 +1,294 @@
+:root {
+    --lightyellow: rgb(254, 196, 0);
+    --light: rgb(239, 255, 232);
+    --yellow: rgb(255, 153, 31);
+    --green: rgb(19, 152, 106);
+    --darkblue: rgb(39, 60, 117);
+    --background: white;
+ }
+ 
+ /* Custom theme by Darkun7 and modified by IsabelAprilia*/
+ 
+ html, body {
+     font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+     font-size: 14px;
+     line-height: 1.43rem;
+     color: rgba(0, 0, 0, 0.87);
+     background: transparent;
+ }
+ 
+ .pkp_structure_page {
+     max-width: 1200 !important;
+     box-shadow: none !important;
+     max-width: 1160px !important;
+ }
+ 
+ .pkp_head_wrapper{
+     width: auto !important;
+ }
+ #navigationUser{
+     margin-right: 50%;
+     background-color: var(--lightyellow) !important;
+     border-radius: 50px;
+     padding-right: 10px;
+     max-width: 150px;
+     margin-left: 50% ;
+ }
+ #navigationUser a{
+     text-align: left !important;
+     color: var(--main);
+ }
+ #navigationUser a span{
+     color: #fff;
+     top: 0;
+ }
+ 
+ @media (min-width: 992px) {
+     .pkp_nav_list a {
+         display: flex
+ ;
+         align-items: center;
+         padding-left: .714rem;
+         padding-right: .714rem;
+         text-decoration: none;
+         padding-top: .357rem;
+         padding-bottom: .357rem;
+     }
+ }
+ 
+ .pkp_brand_footer {
+     background: none !important;
+ }
+ 
+ /* @media (max-width: 768px){
+     .pkp_structure_footer_wrapper { 
+         width: 728px !important;
+         margin-left: 20px;
+     }
+ } */
+ 
+ .pkp_site_name_wrapper, .pkp_navigation_primary_row {
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ 
+ @media only screen and (min-width: 360px) {
+     .pkp_navigation_user{
+         max-width: 150px !important;
+         margin-right: 10% !important;
+     }
+     #navigationUser{
+         margin-top: 20px;
+     }
+     .pkp_site_name{
+         margin-left: 5% !important;
+     }
+ }
+ 
+ @media only screen and (min-width: 85.375em) {
+     #navigationUserWrapper{
+         /* margin-right: 25%; */
+     }
+ }
+ 
+ @media (min-width: 992px) {
+     .pkp_navigation_user_wrapper {
+         position: absolute;
+         top: 20%;
+         left: 80%;
+         transform: translateX(-50%);
+         padding-left: .714rem;
+         padding-right: .714rem;
+         text-align: right;
+         padding-top: 0;
+         margin-top: 0;
+         border-top: none;
+         z-index: 1000;
+     }
+ }
+ 
+ 
+ 
+ /* NEW FRAME */
+ body{
+     /* white */
+     background: url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_line-unej.png");
+     background:
+     linear-gradient(
+         180deg,
+         rgb(254, 196, 0) 130px,
+         rgb(39, 60, 117) 130px,
+         rgb(39, 60, 117) 170px,
+         rgba(255,255,255,0.1) 170px,
+         rgba(255,255,255,0.1) 100%),
+         url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_line-unej.png") !important;
+        
+        }
+ 
+ .pkp_structure_page{
+     max-width: 1200 !important;
+     margin: 0px auto 25px auto !important;
+     box-shadow: none !important;
+ }
+ .pkp_head_wrapper{
+     margin: 0px !important;
+ }
+ .pkp_site_name{
+   margin-left: 0px !important;
+ }
+ .pkp_structure_footer_wrapper{
+     background: rgb(255,255,255);
+     background: linear-gradient(180deg, var(--background) 75%, rgba(221,221,221,1) 100%) !important;
+ }
+ .pkp_structure_footer_wrapper{
+     border-radius: 0 0 20px 20px;
+ }
+ 
+ /* Search Button */
+ .fa.fa-search{
+     color: #fff;
+ }
+ 
+ .pkp_search.pkp_search_desktop{
+     color: rgba(0, 0, 0, 0.54);
+ }
+ 
+ .pkp_site_nav_menu .pkp_nav_list a{
+     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+     font-size: 13px;
+     color: rgba(0, 0, 0, 0.54);
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ 
+ .pkp_site_nav_menu .pkp_nav_list a:focus{
+     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+     font-size: 13px;
+     color: #273c75;
+     background-color: transparent;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ 
+ /* SUBMISSION BUTTON */
+ 
+ a.block_make_submission_link{
+     padding: 5px 10px; /* Menghilangkan !important */
+     width: 100%;
+     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+     font-weight: 700;
+     display: block;
+     text-align: center;
+     text-transform: uppercase;
+     background: #273c75;
+     color: #fff;
+     border: none;
+     transition: background 0.3s ease; /* Menambahkan transisi untuk perubahan warna */
+ }
+ a.block_make_submission_link:hover{
+     background: #E1AD21; /* Mengubah warna latar belakang saat hover */
+     color: #fff; /* Tetap putih saat hover */
+     
+ }
+ 
+ /* Side Button */
+ 
+ .actionBtn3 {
+    padding: 5px 10px; /* Menghilangkan !important */
+    width: 100%;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--darkblue);
+    color: #fff;
+    border: none;
+    transition: background 0.3s ease; /* Menambahkan transisi untuk perubahan warna */
+}
+
+.actionBtn3:hover {
+    background: var(--lightyellow); /* Mengubah warna latar belakang saat hover */
+    color: #fff; /* Tetap putih saat hover */
+}
+ 
+ 
+ /* Side Block */
+ .block-head {
+     text-transform: capitalize;
+     display: block;
+     padding: 10px 5px !important;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+ }
+ .side-block {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     background-color: var(--main);
+ }
+ 
+ .side-block li {
+     border-bottom: 8px var(--background) solid;
+ }
+ 
+ .side-block a {
+     display: block;
+     padding: 5px;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .current_issue h2 {
+     display: inline-block;
+     padding-bottom: 0.5em;
+     border-bottom: 3px solid #f7bc4a;
+     text-transform: uppercase;
+     font-weight: 700;
+     color: #000000;
+ }
+ .pkp_structure_head {
+     background-image: none!important;
+ }
+ .pkp_site_name .is_text{
+    color:#ffffff;
+ }
+ .pkp_navigation_primary_wrapper {
+     background-color: var(--darkblue);
+ }
+ .pkp_navigation_primary_row {
+     background: var(--darkblue);
+     margin-top: 10px;
+ }
+
+ .pkp_site_nav_menu .pkp_nav_list a {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul.dropdown-menu.show{
+    background-color: var(--darkblue);
+}
+
+
+ #pkp_content_nav{
+         background: var(--lightyellow);
+ }
+ 
+ /* Main Background */
+ .pkp_structure_content.has_sidebar{
+     background-color: var(--background) !important;
+  
+ }
+ .pkp_structure_footer_wrapper {
+     background: rgba(0, 0, 0, 0.05);
+     border-top: 1px solid #ddd;
+     border-bottom: 20px solid #935a0c;
+ }
+ 
+ 
